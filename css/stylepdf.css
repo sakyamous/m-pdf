@@ -1,0 +1,39 @@
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding:15px;
+    border-bottom:1px solid;
+}
+
+th {
+    height:50px;
+    background-color:cadetblue;
+}
+
+tr:nth-child(even) {background-color:#dadae7}
+
+h1 small {
+    font-size: 150%;
+}
+
+.item-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+.img{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 110px;
+    margin-right: 10px;
+}
+.item-center .text sub{
+    width: 100%;
+}
